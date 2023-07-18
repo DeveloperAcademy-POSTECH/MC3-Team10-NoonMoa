@@ -24,7 +24,7 @@ git remote add upstream <원본(메인)레포 주소>
 ```bash
 git remote add origin <로컬(포크한 나의)레포 주소>
 ```
-
+### <반복 시작>
 **작업을 진행할 시 upstream에서 pull을 받아오고, origin으로 push를 날려주어 pr을 진행합니다.**
 
 → 공동 작업물을 받아와서 내 개인 컴퓨터로 작업을 한 뒤, 공동 작업물에 합칠 수 있도록 진행하는 것
@@ -88,7 +88,7 @@ git push -u origin <브랜치명>    //해당 브랜치를 올리고자 한다.
 git switch develop
 ```
 
-### 9. 1번부터 다시 진행을 하며 작업을 반복하면 됩니다.
+### 9. <반복 시작> 다시 진행을 하며 작업을 반복하면 됩니다.
 
 </div>
 </details>
@@ -110,7 +110,7 @@ git switch develop
 
 ### 브랜치 이름 구조
 
-**타입/#숫자**
+**타입/#이슈번호**
 
 ex. Feat/#1
 
